@@ -2,7 +2,7 @@
 
 ## Options available
 
-The following options are available to restrict Mining4SAT to only one formof compression:
+The following options are available to restrict Mining4SAT to only one form of compression:
 
 * -n or -N: launch only non binary reduction
 
