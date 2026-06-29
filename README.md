@@ -17,3 +17,15 @@ Mining4Sat can be launched with the following command line:
 ```
 java -jar mining4Sat.jar file.cnf lambda [option]
 ```
+
+## Benchmarks
+
+The repository *benchmarks* contains several families of benchmarks used in our experiments.
+
+The repository *SAT24* contains a single file (*track_main_2024.uri*). It can be used to download all the main track instances of the SAT 2024 competition with the following command line:
+
+```
+wget --content-disposition -i track_main_2024.uri
+```
+
+The repository *Crypto* contains XNF instances. We also provide scripts to compress the CNF or XOR part of an instance or of all the instances contained in a directory.
